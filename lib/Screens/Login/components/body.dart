@@ -8,7 +8,7 @@ import 'package:project_app/components/rounded_button.dart';
 import 'package:project_app/components/rounded_input_field.dart';
 import 'package:project_app/components/rounded_password_field.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:project_app/home.dart';
+import 'package:project_app/Screens/pages/menu.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -46,7 +46,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return ProductsScreen();
+                      return Home();
                     },
                   ),
                 );
